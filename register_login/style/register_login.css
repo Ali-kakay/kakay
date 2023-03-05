@@ -1,0 +1,38 @@
+/* this is for forms style for this site */
+.form_countainer {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     height: auto;
+     margin: auto;
+     padding: 10px;
+     text-align: center;
+     border: 1px solid var(--OLIVE);
+     border-radius: 3px;
+}
+.form_countainer h2{
+     color: var(--RED);
+     margin: 10px 0;
+}
+.form_countainer .user_name,.email,.country,.pass,.gender{
+     margin: 10px 0;
+     width: auto;
+}
+.form_countainer form label,.inputs{
+     font-size: var(--F-SIZE-M1);
+
+}
+.submit_button{
+     outline: none;
+     padding: 3px;
+     
+}
+.form_countainer form .inputs{
+     width: 50%;
+     height: 30px;
+     padding: 3px 5px;
+}
+.form_countainer form .gender{
+     padding: 5px;
+     margin: 0 2px;
+}

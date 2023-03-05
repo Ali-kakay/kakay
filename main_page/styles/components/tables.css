@@ -1,0 +1,26 @@
+/*--- tables ---*/
+.main_body .article table{
+     width: 100%;
+}
+.main_body .article table,th,td{
+     border: 1px solid var(--OLIVE);
+     border-collapse: collapse;
+     padding: 3px 5px;
+     text-align: left;
+     margin: 5px 0;
+}
+.main_body .article table thead{
+     background-color: var(--ORANGE);
+     font-size: var(--F-SIZE-M1);
+}
+.main_body .article table th{
+     text-align: center;
+}
+.main_body .article table tbody tr:nth-child(even){ /*table trick*/
+     background-color: var(--WHITE1);
+}
+/* hover section for tables */
+.main_body .article table tbody tr:hover{
+     background-color: var(--SILVER);
+     transition: all 0.5 ease-in-out;
+}

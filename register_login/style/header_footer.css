@@ -1,0 +1,108 @@
+.header_container{
+     display: flex;
+     flex-direction: column;
+     position: sticky;
+     top: 0;
+}
+.header_container .header1{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px 20px;
+     background-color: var(--BLACK1);
+}
+.header_container .header1 .logo{
+     font-size: var(--F-SIZE-M2);
+     color: var(--ORANGE);
+     cursor: context-menu;
+}
+.header_container .header1 .register a{
+     font-size: var(--F-SIZE-M1);
+     color: var(--WHITE1);
+     cursor: pointer;
+     transition: 0.5s;
+}
+.header_container .header2{
+     display: flex;
+     background-color: var(--RED);
+     justify-items: start;
+     align-items: center;
+     padding: 0 20px;
+}
+.header_container .header2 a{
+     padding: 3px;
+     color: var(--WHITE1);
+     margin: 0 10px;
+     font-size: var(--F-SIZE-M1);
+     transition: all;
+     border-radius: 2px;
+}
+/* active button */
+.active{
+     border-bottom: 3px solid var(--BLACK1);
+}
+.header_container .header2 a:first-child{
+     margin-left: 0;
+}
+/* hovers */
+.header_container .header2 a:hover{
+     background-color: var(--BLACK1);
+     transition: 0.5s;
+}
+.header_container .header1 .register a:hover{
+     color: var(--GREEN1);
+}
+
+/* footer */
+.footer_container{
+     display: flex;
+     flex-direction: column;
+     background-color: var(--BLACK1);
+}
+.footer_container .footer{
+     display: flex;
+     justify-content: space-around;
+     align-items: baseline;   /* this is important */
+}
+.footer_container .footer .footer_section{
+     margin: 10px auto;
+     justify-content: center;
+}
+.footer_container .footer .footer_section h2{
+     color: var(--ORANGE);
+     margin-bottom: 15px;
+     border-bottom: 1px solid var(--ORANGE);
+     display: inline-block;
+}
+.footer_container .footer .footer_section a{
+     color: var(--ORANGE);
+     margin: 5px 0;
+     padding: 2px 5px;
+     transition: all 0.5s;
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     transition: all;
+     border-radius: 2px;
+     
+}
+
+/* footer hovers */
+.footer_container .footer .footer_section a:hover{
+     /* background-color: var(--BLACK); */
+     color: var(--GREEN1);
+     transition: 0.5s;
+}
+
+.footer_container .copyright{
+     text-align: center;
+     padding: 5px 0;
+     border-top: 1px solid var(--ORANGE);
+     color: var(--ORANGE);
+}
+/* media query section */
+/* @media screen and(min-width: 500px){
+     .footer_container{
+          background-color: cornflowerblue;
+     }
+} */

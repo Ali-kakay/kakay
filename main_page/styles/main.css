@@ -1,0 +1,9 @@
+@import 'settings/settings.css';
+@import 'components/main_body.css';
+@import 'components/header_footer.css';
+@import 'components/components.css';
+@import 'components/tables.css';
+@import 'components/print.css';
+@import 'components/register_login.css';
+
+@import 'ganeral/responsive.css';/* problem */

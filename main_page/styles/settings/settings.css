@@ -1,0 +1,47 @@
+*{   /* style for all pages */
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     letter-spacing: 0.5px;
+     word-spacing: 3px;
+     list-style: none;
+     text-decoration: none;
+     scroll-behavior: smooth;
+}
+
+:root{    /* colors for all pages */
+     --WHITE: rgb(250, 250, 250);
+     --WHITE1: rgb(240, 240, 240);
+     --BLACK: rgb(0, 0, 0);
+     --BLACK1: rgb(45, 45, 45);
+     --RED: rgb(255, 0, 0);
+     --RED1: rgb(255, 50, 50);
+     --BLUE:rgb(0, 0, 255);
+     --BLUE1: rgb(50, 50, 255);
+     --GREEN: rgb(0, 255, 0);
+     --GREEN1: rgb(50, 255, 50);
+
+     --ORANGE: orange;
+     --OLIVE: olive;
+     --PURPLE: purple;
+     --CYAN: cyan;
+     --YELLOW: yellow;
+     --MAGENTA: magenta;
+     --PINK: pink;
+     --BROWN: brown;
+     --SILVER: silver;
+     --DEEPPINK: deeppink;
+}
+
+:root{    /* font size for all pages */
+     --F-SIZE-S: 10px;
+     --F-SIZE-M: 15px;
+     --F-SIZE-M1: 20px;
+     --F-SIZE-L: 25px;
+     --F-SIZE-L1: 30px;
+}
+/* active buttons */
+.active {
+     border-bottom: 2px solid var(--BLACK1);
+     
+}
